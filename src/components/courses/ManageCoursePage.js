@@ -9,7 +9,6 @@ import {formatAuthors} from '../../selectors/selectors';
 export class ManageCoursePage extends React.Component {
   constructor(props, context) {
     super(props, context);
-
     this.state = {
       course: Object.assign({}, this.props.course),
       errors: {},
